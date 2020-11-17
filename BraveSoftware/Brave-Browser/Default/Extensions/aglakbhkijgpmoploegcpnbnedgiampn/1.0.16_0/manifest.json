@@ -1,0 +1,39 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "hot-reload.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "icons/icon-16.png",
+         "24": "icons/icon-24.png",
+         "32": "icons/icon-32.png"
+      },
+      "default_popup": "index.html",
+      "default_title": "Prodeus"
+   },
+   "content_scripts": [ {
+      "js": [ "tracker.js" ],
+      "matches": [ "https://www.youtube.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "script-src 'self' https://prodeus-api.herokuapp.com 'sha256-G0jttwTicqwx6qiINDVnSnCLM5cYip527RZNBOPuXUc='; object-src 'self'; media-src *;",
+   "description": "Forget massive tuition costs. Let Prodeus catalog the hours you spend learning on Youtube and all the work you do along the way.",
+   "icons": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtN1azFbfx0AIlSShhlF3bZvAm+znga9IlnlEtWnWWpsVNcw3dKnNOgnRIxfri3XgzwylFx6zXyyZRN6tVESQq5dGaFw6d2liNAXaPTsERDjRFQ2Ef7jIArJw7nA2kvMFu6ouibb/vLOe+vXdZMK/8Utym9y7TDQ39mVh8d3sTJ8V0WTseFEKJZDoJvVyDTtTIwpew5QSNRl+di4tuKr1HOT0X8sBqzwUImHB5/Zj1rQ2UZZrO8ee5h4Kk4bA5qFmV521S1Ziglb6Nxov7uhaFWjDzahh8MMwURo8whX7DhP31j8s28DQc64ucwn4BMe0XCBCR9vrfcx3NUgIeeSAcwIDAQAB",
+   "manifest_version": 2,
+   "name": "Prodeus",
+   "oauth2": {
+      "client_id": "432205627649-t7209tb258r3o4gl9gl944utlsn60aph.apps.googleusercontent.com",
+      "scopes": [ "profile", "email", "openid" ]
+   },
+   "permissions": [ "https://www.youtube.com/", "https://api-js.mixpanel.com/*", "https://prodeus-api.herokuapp.com/*", "*://mandrillapp.com/*", "identity", "storage", "activeTab", "tabs" ],
+   "short_name": "Prodeus",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.16",
+   "web_accessible_resources": [ "*.png" ]
+}

@@ -1,0 +1,5 @@
+2020/11/05-11:22:18.313 23ec Reusing MANIFEST /home/thebluechalk/.config/google-chrome/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/05-11:22:30.960 23ec Level-0 table #5: started
+2020/11/05-11:22:31.006 23ec Level-0 table #5: 797 bytes OK
+2020/11/05-11:22:31.084 23ec Delete type=0 #3
+2020/11/05-11:22:31.084 23ec Manual compaction at level-0 from (begin) .. (end); will stop at (end)

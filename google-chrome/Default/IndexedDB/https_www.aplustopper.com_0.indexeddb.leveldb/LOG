@@ -1,0 +1,5 @@
+2020/11/06-21:16:14.119 d35 Reusing MANIFEST /home/thebluechalk/.config/google-chrome/Default/IndexedDB/https_www.aplustopper.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/06-21:16:17.715 d35 Level-0 table #5: started
+2020/11/06-21:16:17.779 d35 Level-0 table #5: 1050 bytes OK
+2020/11/06-21:16:17.846 d35 Delete type=0 #3
+2020/11/06-21:16:17.847 d35 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

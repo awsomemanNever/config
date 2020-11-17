@@ -1,0 +1,5 @@
+2020/11/16-20:23:05.762 1239 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_studio.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/16-20:23:08.162 128c Level-0 table #5: started
+2020/11/16-20:23:08.242 128c Level-0 table #5: 388 bytes OK
+2020/11/16-20:23:08.320 128c Delete type=0 #3
+2020/11/16-20:23:08.321 128c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

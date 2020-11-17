@@ -1,0 +1,30 @@
+2020/11/16-19:42:54.137 b86 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/16-19:42:54.137 b86 Recovering log #66
+2020/11/16-19:42:54.521 b86 Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000066.log 
+2020/11/16-20:13:57.630 110b Level-0 table #70: started
+2020/11/16-20:13:57.834 110b Level-0 table #70: 1361037 bytes OK
+2020/11/16-20:13:57.936 110b Delete type=0 #66
+2020/11/16-20:13:57.964 1119 Compacting 1@1 + 1@2 files
+2020/11/16-20:13:58.021 1119 Level-0 table #73: started
+2020/11/16-20:13:58.169 1119 Level-0 table #73: 670447 bytes OK
+2020/11/16-20:13:58.326 1119 Delete type=0 #69
+2020/11/16-20:13:58.494 1119 Generated table #71@1: 36971 keys, 2349949 bytes
+2020/11/16-20:13:58.494 1119 Compacted 1@1 + 1@2 files => 2349949 bytes
+2020/11/16-20:13:58.571 1119 compacted to: files[ 1 0 1 0 0 0 0 ]
+2020/11/16-20:13:58.571 1119 Delete type=2 #64
+2020/11/16-20:13:58.571 1119 Delete type=2 #70
+2020/11/16-20:13:58.572 110b Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x05\x02\x1f\x03\x00@Iv\xcf[wB\x00\x01,\x00N\x00C\x005\x00J\x007\x008\x00r\x00z\x00O\x00g\x00g\x00E\x009\x00g\x00V\x000\x00q\x006\x00X\x00o\x00p\x000\x00K\x00g\x003\x00v\x00h\x00D\x00H\x00N\x003\x00J\x007\x00t\x002\x001\x00F\x00e\x00K\x008\x00p\x00o\x00w\x00=' @ 515444 : 0
+2020/11/16-20:13:58.573 110b Compacting 1@0 + 0@1 files
+2020/11/16-20:13:58.671 110b Generated table #74@0: 15522 keys, 670447 bytes
+2020/11/16-20:13:58.671 110b Compacted 1@0 + 0@1 files => 670447 bytes
+2020/11/16-20:13:58.719 110b compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/11/16-20:13:58.719 110b Delete type=2 #73
+2020/11/16-20:13:58.720 110b Manual compaction at level-0 from '\x00\x05\x02\x1f\x03\x00@Iv\xcf[wB\x00\x01,\x00N\x00C\x005\x00J\x007\x008\x00r\x00z\x00O\x00g\x00g\x00E\x009\x00g\x00V\x000\x00q\x006\x00X\x00o\x00p\x000\x00K\x00g\x003\x00v\x00h\x00D\x00H\x00N\x003\x00J\x007\x00t\x002\x001\x00F\x00e\x00K\x008\x00p\x00o\x00w\x00=' @ 515444 : 0 .. (end); will stop at (end)
+2020/11/16-20:13:58.720 110b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x05\x02\x1f\x03\x00@Iv\xcf[wB\x00\x01,\x00N\x00C\x005\x00J\x007\x008\x00r\x00z\x00O\x00g\x00g\x00E\x009\x00g\x00V\x000\x00q\x006\x00X\x00o\x00p\x000\x00K\x00g\x003\x00v\x00h\x00D\x00H\x00N\x003\x00J\x007\x00t\x002\x001\x00F\x00e\x00K\x008\x00p\x00o\x00w\x00=' @ 515444 : 0
+2020/11/16-20:13:58.720 110b Compacting 1@1 + 1@2 files
+2020/11/16-20:13:58.897 110b Generated table #75@1: 21449 keys, 1556619 bytes
+2020/11/16-20:13:58.897 110b Compacted 1@1 + 1@2 files => 1556619 bytes
+2020/11/16-20:13:58.941 110b compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/16-20:13:58.941 110b Delete type=2 #74
+2020/11/16-20:13:58.942 110b Delete type=2 #71
+2020/11/16-20:13:58.942 110b Manual compaction at level-1 from '\x00\x05\x02\x1f\x03\x00@Iv\xcf[wB\x00\x01,\x00N\x00C\x005\x00J\x007\x008\x00r\x00z\x00O\x00g\x00g\x00E\x009\x00g\x00V\x000\x00q\x006\x00X\x00o\x00p\x000\x00K\x00g\x003\x00v\x00h\x00D\x00H\x00N\x003\x00J\x007\x00t\x002\x001\x00F\x00e\x00K\x008\x00p\x00o\x00w\x00=' @ 515444 : 0 .. (end); will stop at (end)

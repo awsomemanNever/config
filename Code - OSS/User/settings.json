@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "GitHub Dark",
+    "editor.minimap.enabled": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 1
+}

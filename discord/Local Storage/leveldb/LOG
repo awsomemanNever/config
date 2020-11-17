@@ -1,0 +1,9 @@
+2020/11/17-08:58:36.494 5c5 Reusing MANIFEST leveldb/MANIFEST-000001
+2020/11/17-08:58:36.545 5c5 Recovering log #155
+2020/11/17-08:58:36.629 5c5 Reusing old log leveldb/000155.log 
+2020/11/17-09:39:11.484 944 Level-0 table #160: started
+2020/11/17-09:39:11.606 944 Level-0 table #160: 16650 bytes OK
+2020/11/17-09:39:11.706 944 Delete type=0 #155
+2020/11/17-11:02:37.105 15fc Level-0 table #162: started
+2020/11/17-11:02:37.247 15fc Level-0 table #162: 21250 bytes OK
+2020/11/17-11:02:37.425 15fc Delete type=0 #159

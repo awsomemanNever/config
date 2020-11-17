@@ -1,0 +1,1156 @@
+[2020-11-13 10:23:07.862] [info] Checking for update
+[2020-11-13 10:23:08.240] [info] Error reading /home/thebluechalk/.config/Notion/cookies.json Error: /home/thebluechalk/.config/Notion/cookies.json: ENOENT: no such file or directory, open '/home/thebluechalk/.config/Notion/cookies.json'
+    at Object.openSync (fs.js:447:3)
+    at Object.func (electron/js2c/asar.js:138:31)
+    at Object.func [as openSync] (electron/js2c/asar.js:138:31)
+    at Object.readFileSync (fs.js:349:35)
+    at Object.fs.readFileSync (electron/js2c/asar.js:580:40)
+    at Object.fs.readFileSync (electron/js2c/asar.js:580:40)
+    at Object.readFileSync (/opt/notion-app/app.asar/node_modules/jsonfile/index.js:61:22)
+    at JsonStore.loadSync (/opt/notion-app/app.asar/main/JsonStore.js:34:28)
+    at new JsonStore (/opt/notion-app/app.asar/main/JsonStore.js:11:14)
+    at Object.<anonymous> (/opt/notion-app/app.asar/main/CookieStore.js:5:25)
+[2020-11-13 10:23:10.777] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-11-13 10:23:10.856] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-11-13 10:23:10.919] [info] Error reading /home/thebluechalk/.config/Notion/assets.json Error: ENOENT: no such file or directory, open '/home/thebluechalk/.config/Notion/assets.json'
+[2020-11-13 10:23:10.921] [info] Error reading /home/thebluechalk/.config/Notion/headers.json Error: ENOENT: no such file or directory, open '/home/thebluechalk/.config/Notion/headers.json'
+[2020-11-13 10:23:10.922] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 184 }
+}
+[2020-11-13 10:23:10.972] [info] Error reading /home/thebluechalk/.config/Notion/assets.json Error: ENOENT: no such file or directory, open '/home/thebluechalk/.config/Notion/assets.json'
+[2020-11-13 10:23:10.973] [info] Error reading /home/thebluechalk/.config/Notion/headers.json Error: ENOENT: no such file or directory, open '/home/thebluechalk/.config/Notion/headers.json'
+[2020-11-13 10:23:10.974] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'verifyCache',
+  data: { time: 51 }
+}
+[2020-11-13 10:23:10.974] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'assetCacheInitialize',
+  data: { time: 236 }
+}
+[2020-11-13 10:23:18.224] [info] Checking for app update
+[2020-11-13 10:23:26.407] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 8183 }
+}
+[2020-11-13 10:23:26.667] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 258 }
+}
+[2020-11-13 10:23:26.668] [info] App update available 23.4.2
+[2020-11-13 10:23:26.798] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'assetJson',
+  data: { time: 130 }
+}
+[2020-11-13 10:23:55.244] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'prepare',
+  data: { time: 28438 }
+}
+[2020-11-13 10:23:55.254] [info] App update download complete 23.4.2
+[2020-11-13 10:23:55.257] [info] Installing app update 23.4.2
+[2020-11-13 10:23:55.267] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'download',
+  data: { time: 13 }
+}
+[2020-11-13 10:23:55.268] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'checkForUpdatesNow',
+  data: { time: 37045 }
+}
+[2020-11-13 10:24:55.271] [info] Checking for app update
+[2020-11-13 10:24:56.303] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1028 }
+}
+[2020-11-13 10:24:56.313] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-11-13 10:24:56.315] [info] No app update available
+[2020-11-13 10:25:02.389] [info] Checking for update
+[2020-11-13 10:25:05.664] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-11-13 10:25:05.667] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-11-13 10:25:05.829] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 357 }
+}
+[2020-11-13 10:25:22.264] [info] Checking for update
+[2020-11-13 10:25:28.214] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-11-13 10:25:28.218] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-11-13 10:25:56.318] [info] Checking for app update
+[2020-11-13 10:25:57.409] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1083 }
+}
+[2020-11-13 10:25:57.703] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 291 }
+}
+[2020-11-13 10:25:57.704] [info] No app update available
+[2020-11-13 10:26:10.778] [info] Checking for update
+[2020-11-13 10:26:11.098] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-11-13 10:26:11.100] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-11-13 10:26:11.251] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 201 }
+}
+[2020-11-13 10:26:28.076] [info] Checking for update
+[2020-11-13 10:26:28.349] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-11-13 10:26:28.351] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-11-13 10:26:28.524] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 215 }
+}
+[2020-11-13 10:26:30.770] [info] Checking for update
+[2020-11-13 10:26:31.122] [info] Checking for update
+[2020-11-13 10:26:31.132] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-11-13 10:26:31.135] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-11-13 10:26:31.257] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 195 }
+}
+[2020-11-13 10:26:31.405] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-11-13 10:26:31.408] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-11-13 10:26:31.539] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 178 }
+}
+[2020-11-13 10:26:57.707] [info] Checking for app update
+[2020-11-13 10:26:58.800] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1092 }
+}
+[2020-11-13 10:26:58.808] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 4 }
+}
+[2020-11-13 10:26:58.809] [info] No app update available
+[2020-11-13 10:27:18.529] [info] Checking for update
+[2020-11-13 10:27:18.814] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-11-13 10:27:18.817] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-11-13 10:27:18.907] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 139 }
+}
+[2020-11-13 10:27:20.007] [info] Checking for update
+[2020-11-13 10:27:20.554] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-11-13 10:27:20.558] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-11-13 10:27:20.723] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 278 }
+}
+[2020-11-13 10:27:20.854] [info] Checking for update
+[2020-11-13 10:27:21.228] [info] Checking for update
+[2020-11-13 10:27:21.250] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-11-13 10:27:21.253] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-11-13 10:27:21.377] [info] Checking for update
+[2020-11-13 10:27:21.654] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-11-13 10:27:21.658] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-11-13 10:27:21.689] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 95 }
+}
+[2020-11-13 10:27:21.783] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-11-13 10:27:21.786] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-11-13 10:27:22.171] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 448 }
+}
+[2020-11-13 10:27:24.369] [info] Checking for update
+[2020-11-13 10:27:24.723] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-11-13 10:27:24.729] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-11-13 10:27:24.918] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 246 }
+}
+[2020-11-13 10:27:58.810] [info] Checking for app update
+[2020-11-13 10:28:39.063] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 39814 }
+}
+[2020-11-13 10:29:28.170] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 49104 }
+}
+[2020-11-13 10:29:28.171] [info] No app update available
+[2020-11-13 10:29:47.600] [info] Checking for update
+[2020-11-13 10:29:48.134] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-11-13 10:29:48.137] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-11-13 10:29:48.334] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 236 }
+}
+[2020-11-13 10:29:57.685] [info] Checking for update
+[2020-11-13 10:29:57.953] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-11-13 10:29:57.955] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:118:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:115:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-11-13 10:29:58.063] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 161 }
+}
+[2020-11-13 10:30:28.174] [info] Checking for app update
+[2020-11-13 10:30:29.108] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 931 }
+}
+[2020-11-13 10:30:29.115] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 4 }
+}
+[2020-11-13 10:30:29.115] [info] No app update available
+[2020-11-13 10:31:29.117] [info] Checking for app update
+[2020-11-13 10:31:30.077] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 959 }
+}
+[2020-11-13 10:31:30.084] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 3 }
+}
+[2020-11-13 10:31:30.084] [info] No app update available
+[2020-11-13 10:32:30.104] [info] Checking for app update
+[2020-11-13 10:32:31.223] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1118 }
+}
+[2020-11-13 10:32:31.428] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 199 }
+}
+[2020-11-13 10:32:31.429] [info] No app update available
+[2020-11-13 10:33:31.435] [info] Checking for app update
+[2020-11-13 10:33:33.144] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1708 }
+}
+[2020-11-13 10:33:33.416] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 269 }
+}
+[2020-11-13 10:33:33.418] [info] No app update available
+[2020-11-13 10:34:33.441] [info] Checking for app update
+[2020-11-13 10:34:34.457] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1015 }
+}
+[2020-11-13 10:34:34.669] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 211 }
+}
+[2020-11-13 10:34:34.670] [info] No app update available
+[2020-11-13 10:35:34.694] [info] Checking for app update
+[2020-11-13 10:35:35.782] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1086 }
+}
+[2020-11-13 10:35:36.046] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 262 }
+}
+[2020-11-13 10:35:36.046] [info] No app update available
+[2020-11-13 10:36:36.074] [info] Checking for app update
+[2020-11-13 10:36:37.113] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1037 }
+}
+[2020-11-13 10:36:37.123] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-11-13 10:36:37.124] [info] No app update available
+[2020-11-13 10:37:37.151] [info] Checking for app update
+[2020-11-13 10:37:38.226] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1073 }
+}
+[2020-11-13 10:37:38.497] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 267 }
+}
+[2020-11-13 10:37:38.498] [info] No app update available
+[2020-11-13 10:38:38.527] [info] Checking for app update
+[2020-11-13 10:38:39.573] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1042 }
+}
+[2020-11-13 10:38:39.593] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 17 }
+}
+[2020-11-13 10:38:39.594] [info] No app update available
+[2020-11-13 10:39:39.623] [info] Checking for app update
+[2020-11-13 10:39:40.663] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1039 }
+}
+[2020-11-13 10:39:40.673] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-11-13 10:39:40.674] [info] No app update available
+[2020-11-13 10:40:40.704] [info] Checking for app update
+[2020-11-13 10:40:41.772] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1066 }
+}
+[2020-11-13 10:40:41.782] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-11-13 10:40:41.783] [info] No app update available
+[2020-11-13 10:41:41.816] [info] Checking for app update
+[2020-11-13 10:41:42.844] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1026 }
+}
+[2020-11-13 10:41:42.853] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-11-13 10:41:42.854] [info] No app update available
+[2020-11-13 10:42:42.872] [info] Checking for app update
+[2020-11-13 10:42:44.158] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1283 }
+}
+[2020-11-13 10:42:44.165] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 3 }
+}
+[2020-11-13 10:42:44.165] [info] No app update available
+[2020-11-13 10:43:44.174] [info] Checking for app update
+[2020-11-13 10:43:45.284] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1103 }
+}
+[2020-11-13 10:43:45.295] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-11-13 10:43:45.296] [info] No app update available
+[2020-11-13 10:44:45.331] [info] Checking for app update
+[2020-11-13 10:44:46.428] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1092 }
+}
+[2020-11-13 10:44:46.702] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 271 }
+}
+[2020-11-13 10:44:46.703] [info] No app update available
+[2020-11-13 10:45:46.741] [info] Checking for app update
+[2020-11-13 10:45:47.927] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1179 }
+}
+[2020-11-13 10:45:48.310] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 379 }
+}
+[2020-11-13 10:45:48.315] [info] No app update available
+[2020-11-13 10:46:48.322] [info] Checking for app update
+[2020-11-13 10:46:49.578] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1253 }
+}
+[2020-11-13 10:46:49.854] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 273 }
+}
+[2020-11-13 10:46:49.855] [info] No app update available
+[2020-11-13 10:47:49.880] [info] Checking for app update
+[2020-11-13 10:47:51.136] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1250 }
+}
+[2020-11-13 10:47:51.149] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 10 }
+}
+[2020-11-13 10:47:51.150] [info] No app update available
+[2020-11-13 10:48:51.191] [info] Checking for app update
+[2020-11-13 10:48:52.266] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1073 }
+}
+[2020-11-13 10:48:52.526] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 257 }
+}
+[2020-11-13 10:48:52.527] [info] No app update available
+[2020-11-13 10:49:52.558] [info] Checking for app update
+[2020-11-13 10:49:53.709] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1149 }
+}
+[2020-11-13 10:49:53.924] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 211 }
+}
+[2020-11-13 10:49:53.924] [info] No app update available
+[2020-11-13 10:50:53.969] [info] Checking for app update
+[2020-11-13 10:50:56.072] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 2102 }
+}
+[2020-11-13 10:50:56.304] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 229 }
+}
+[2020-11-13 10:50:56.305] [info] No app update available
+[2020-11-13 10:51:56.308] [info] Checking for app update
+[2020-11-13 10:51:57.424] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1114 }
+}
+[2020-11-13 10:51:57.611] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 184 }
+}
+[2020-11-13 10:51:57.611] [info] No app update available
+[2020-11-13 10:52:57.660] [info] Checking for app update
+[2020-11-13 10:53:03.777] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 6114 }
+}
+[2020-11-13 10:53:03.785] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 5 }
+}
+[2020-11-13 10:53:03.786] [info] No app update available
+[2020-11-13 10:54:03.824] [info] Checking for app update
+[2020-11-13 10:54:04.803] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 976 }
+}
+[2020-11-13 10:54:05.041] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 236 }
+}
+[2020-11-13 10:54:05.042] [info] No app update available
+[2020-11-13 10:55:05.098] [info] Checking for app update
+[2020-11-13 10:55:06.053] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 953 }
+}
+[2020-11-13 10:55:06.301] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 247 }
+}
+[2020-11-13 10:55:06.302] [info] No app update available
+[2020-11-13 10:56:06.353] [info] Checking for app update
+[2020-11-13 10:56:07.449] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1087 }
+}
+[2020-11-13 10:56:07.456] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-11-13 10:56:07.457] [info] No app update available
+[2020-11-13 10:57:07.507] [info] Checking for app update
+[2020-11-13 10:57:08.649] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1139 }
+}
+[2020-11-13 10:57:08.931] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 279 }
+}
+[2020-11-13 10:57:08.931] [info] No app update available
+[2020-11-13 10:58:08.933] [info] Checking for app update
+[2020-11-13 10:58:10.972] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 2036 }
+}
+[2020-11-13 10:58:11.233] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 257 }
+}
+[2020-11-13 10:58:11.233] [info] No app update available
+[2020-11-13 10:59:11.235] [info] Checking for app update
+[2020-11-13 10:59:12.289] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1052 }
+}
+[2020-11-13 10:59:12.300] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 9 }
+}
+[2020-11-13 10:59:12.300] [info] No app update available
+[2020-11-13 11:00:12.303] [info] Checking for app update
+[2020-11-13 11:00:13.292] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 988 }
+}
+[2020-11-13 11:00:13.313] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 18 }
+}
+[2020-11-13 11:00:13.314] [info] No app update available
+[2020-11-13 11:01:13.317] [info] Checking for app update
+[2020-11-13 11:01:14.660] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1341 }
+}
+[2020-11-13 11:01:14.901] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 238 }
+}
+[2020-11-13 11:01:14.902] [info] No app update available
+[2020-11-13 11:02:14.904] [info] Checking for app update
+[2020-11-13 11:02:15.892] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 986 }
+}
+[2020-11-13 11:02:16.130] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 234 }
+}
+[2020-11-13 11:02:16.131] [info] No app update available
+[2020-11-13 11:03:16.137] [info] Checking for app update
+[2020-11-13 11:03:17.257] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1118 }
+}
+[2020-11-13 11:03:17.487] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 228 }
+}
+[2020-11-13 11:03:17.487] [info] No app update available
+[2020-11-13 11:04:17.494] [info] Checking for app update
+[2020-11-13 11:04:18.638] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1137 }
+}
+[2020-11-13 11:04:18.901] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 261 }
+}
+[2020-11-13 11:04:18.903] [info] No app update available
+[2020-11-13 11:05:18.911] [info] Checking for app update
+[2020-11-13 11:05:20.025] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1113 }
+}
+[2020-11-13 11:05:20.280] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 254 }
+}
+[2020-11-13 11:05:20.281] [info] No app update available

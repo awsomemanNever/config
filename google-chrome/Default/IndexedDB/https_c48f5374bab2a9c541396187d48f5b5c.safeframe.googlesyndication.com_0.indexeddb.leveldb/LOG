@@ -1,0 +1,8 @@
+2020/11/06-21:45:54.283 14c6 Reusing MANIFEST /home/thebluechalk/.config/google-chrome/Default/IndexedDB/https_c48f5374bab2a9c541396187d48f5b5c.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/06-21:45:54.284 14c6 Recovering log #7
+2020/11/06-21:45:54.284 14c6 Reusing old log /home/thebluechalk/.config/google-chrome/Default/IndexedDB/https_c48f5374bab2a9c541396187d48f5b5c.safeframe.googlesyndication.com_0.indexeddb.leveldb/000007.log 
+2020/11/06-21:46:08.924 14c6 Level-0 table #11: started
+2020/11/06-21:46:08.924 14c6 Level-0 table #11: 0 bytes OK
+2020/11/06-21:46:08.971 14c6 Delete type=0 #7
+2020/11/06-21:46:08.971 14c6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/06-21:46:08.971 14c6 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

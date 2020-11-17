@@ -1,0 +1,10 @@
+[Bookmarks]
+[Recent]
+/home/thebluechalk/blender/projects/
+/home/thebluechalk/Downloads/
+/home/thebluechalk/blender/renders/f40/
+/home/thebluechalk/blender/renders/
+/tmp/
+/home/thebluechalk/blender/assets/
+/home/thebluechalk/blender/assets/Delightfull_Diana_table_lamp_fbx_obj/
+/home/thebluechalk/blender/

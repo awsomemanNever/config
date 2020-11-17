@@ -1,0 +1,12 @@
+2020/11/06-21:09:18.239 3 Reusing MANIFEST /home/thebluechalk/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/11/06-21:09:18.241 3 Recovering log #3
+2020/11/06-21:09:18.312 3 Reusing old log /home/thebluechalk/.config/google-chrome/Default/Local Storage/leveldb/000003.log 
+2020/11/06-21:28:24.762 c Level-0 table #5: started
+2020/11/06-21:28:24.831 c Level-0 table #5: 199064 bytes OK
+2020/11/06-21:28:24.872 c Delete type=0 #3
+2020/11/06-21:32:16.711 c Level-0 table #7: started
+2020/11/06-21:32:16.824 c Level-0 table #7: 372783 bytes OK
+2020/11/06-21:32:16.916 c Delete type=0 #4
+2020/11/06-21:44:08.396 19 Level-0 table #9: started
+2020/11/06-21:44:08.465 19 Level-0 table #9: 34590 bytes OK
+2020/11/06-21:44:08.555 19 Delete type=0 #6

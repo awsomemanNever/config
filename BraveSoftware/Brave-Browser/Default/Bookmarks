@@ -1,0 +1,105 @@
+{
+   "checksum": "3b0fde6197a08b5e29cec34297db620b",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13248863701000000",
+               "guid": "f21a92aa-2858-45a5-aa14-aa9aabba52be",
+               "id": "6",
+               "name": "Help and Tutorials",
+               "type": "url",
+               "url": "https://support.mozilla.org/en-US/products/firefox"
+            }, {
+               "date_added": "13248863701000000",
+               "guid": "ded28ff1-3b65-4973-a8a6-aedc74255805",
+               "id": "7",
+               "name": "Customize Firefox",
+               "type": "url",
+               "url": "https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+            }, {
+               "date_added": "13248863701000000",
+               "guid": "528cb65b-0933-4576-974d-9e31c15de81b",
+               "id": "8",
+               "name": "Get Involved",
+               "type": "url",
+               "url": "https://www.mozilla.org/en-US/contribute/"
+            }, {
+               "date_added": "13248863701000000",
+               "guid": "cbcb5623-6cdc-4351-b8fd-a5f26dac14f1",
+               "id": "9",
+               "name": "About Us",
+               "type": "url",
+               "url": "https://www.mozilla.org/en-US/about/"
+            } ],
+            "date_added": "13249538394387760",
+            "date_modified": "0",
+            "guid": "01c5ab9b-b88e-4d8f-b177-f713db096c41",
+            "id": "5",
+            "name": "Mozilla Firefox",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13248863703000000",
+               "guid": "e44cb8e5-d5cf-4e3c-8c0d-c7be981a765c",
+               "id": "11",
+               "name": "Manjaro Homepage",
+               "type": "url",
+               "url": "https://manjaro.org/"
+            }, {
+               "date_added": "13248863703000000",
+               "guid": "251cc0d2-2ecd-4e95-a888-db495ec07c26",
+               "id": "12",
+               "name": "Manjaro Forum",
+               "type": "url",
+               "url": "http://forum.manjaro.org/"
+            }, {
+               "date_added": "13248863703000000",
+               "guid": "1dfd16f7-744d-45a1-b8c8-e1f3e88197f7",
+               "id": "13",
+               "name": "Manjaro Wiki",
+               "type": "url",
+               "url": "http://wiki.manjaro.org/index.php/Main_Page"
+            }, {
+               "date_added": "13248863704000000",
+               "guid": "d3423aef-7724-4ab1-bf85-18ab376bcc33",
+               "id": "14",
+               "name": "Manjaro Downloads",
+               "type": "url",
+               "url": "https://manjaro.org/get-manjaro/"
+            } ],
+            "date_added": "13249538394388725",
+            "date_modified": "0",
+            "guid": "7c0caabd-7062-453f-81f2-bd59db89c894",
+            "id": "10",
+            "name": "Manjaro Linux",
+            "type": "folder"
+         } ],
+         "date_added": "13249537068110846",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13249537068110851",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13249537068110853",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

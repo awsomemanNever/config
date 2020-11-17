@@ -1,0 +1,15 @@
+2020/11/17-08:59:57.031 5da Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/17-08:59:57.031 5da Recovering log #31
+2020/11/17-08:59:57.032 5da Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000031.log 
+2020/11/17-09:02:11.618 5da Level-0 table #36: started
+2020/11/17-09:02:11.750 5da Level-0 table #36: 633957 bytes OK
+2020/11/17-09:02:11.843 5da Delete type=0 #31
+2020/11/17-09:02:11.844 5da Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/17-09:02:11.844 5da Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 5946 : 1
+2020/11/17-09:02:11.844 5da Compacting 1@1 + 1@2 files
+2020/11/17-09:02:11.895 5da Generated table #37@1: 69 keys, 45536 bytes
+2020/11/17-09:02:11.895 5da Compacted 1@1 + 1@2 files => 45536 bytes
+2020/11/17-09:02:11.942 5da compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/17-09:02:11.942 5da Delete type=2 #36
+2020/11/17-09:02:11.942 5da Delete type=2 #33
+2020/11/17-09:02:11.943 5da Manual compaction at level-1 from '\x00\x08\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 5946 : 1 .. (end); will stop at (end)

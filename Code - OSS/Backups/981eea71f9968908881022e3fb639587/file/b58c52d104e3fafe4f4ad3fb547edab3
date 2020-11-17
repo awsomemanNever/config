@@ -1,0 +1,9 @@
+file:///home/thebluechalk/projects/bubble-sort/main.py {"mtime":1604649771703,"ctime":1604649771703,"size":0,"etag":"360k1e3pb0","orphaned":false}
+import random
+
+i = 1
+
+array = [1, 2, 3, ,4 ,5, 5 ,6, 6,7 ,85,2,46,44,2,3,5]
+
+for i in array:
+    

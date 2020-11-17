@@ -1,0 +1,23 @@
+[filelight_part]
+antialias=true
+contrast=100
+minFontPitch=6
+scanAcrossMounts=false
+scanRemoteMounts=false
+scanRemovableMedia=false
+scheme=0
+showSmallFiles=false
+skipList[$e]=/dev/,/proc/,/sys/,/root/
+varyLabelFontSizes=true
+
+[general]
+File1[$e]=$HOME
+Name1[$e]=thebluechalk
+
+[window]
+LVDS1 Height 800=710
+LVDS1 Width 1280=1240
+LVDS1 XPosition=20
+LVDS1 YPosition=45
+State=AAAA/wAAAAD9AAAAAAAABNgAAAJ9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHgBsAG8AYwBhAHQAaQBvAG4AVABvAG8AbABCAGEAcgEAAAFD/////wAAAAAAAAAAAAAAFgB2AGkAZQB3AFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
