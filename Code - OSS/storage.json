@@ -2,17 +2,20 @@
     "telemetry.machineId": "1a148e98be943ac4b1783b377173fdf8340fd19d1630c410afa5fed59ed1de96",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/thebluechalk/projects/rust_tutorial",
             "file:///home/thebluechalk/projects/todo",
             "file:///home/thebluechalk/projects/tutorial",
             "file:///home/thebluechalk/projects/bubble-sort",
             "file:///home/thebluechalk/projects/chem_bot"
         ],
-        "files2": []
+        "files2": [
+            "file:///home/thebluechalk/blender/car_tutorial/section%202/Section%202%20-%20Chapters%201-9/Section%202%20-%20Chapter%201A%20-%20Blueprints%20For%202.8%20or%202.9.mp4",
+            "file:///home/thebluechalk/Videos/OZkFPduAEGX.txt"
+        ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/thebluechalk/projects/todo",
-            "backupPath": "/home/thebluechalk/.config/Code - OSS/Backups/5504a63c51326b37dc646879922c5027",
+            "backupPath": "/home/thebluechalk/.config/Code - OSS/Backups/1606032943425",
             "uiState": {
                 "mode": 1,
                 "x": 645,
@@ -69,7 +72,18 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/thebluechalk/projects/todo",
+                                        "fsPath": "/home/thebluechalk/projects/rust_tutorial",
+                                        "external": "file:///home/thebluechalk/projects/rust_tutorial",
+                                        "path": "/home/thebluechalk/projects/rust_tutorial",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/rust_tutorial"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/thebluechalk/projects/todo",
                                         "path": "/home/thebluechalk/projects/todo",
                                         "scheme": "file"
@@ -109,6 +123,19 @@
                                     },
                                     "enabled": true,
                                     "label": "~/projects/chem_bot"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/thebluechalk/Videos/OZkFPduAEGX.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Videos/OZkFPduAEGX.txt"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -626,8 +653,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -768,23 +794,28 @@
                     },
                     {
                         "id": "editor.action.revealDefinition",
-                        "label": "Go to &&Definition"
+                        "label": "Go to &&Definition",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.revealDeclaration",
-                        "label": "Go to &&Declaration"
+                        "label": "Go to &&Declaration",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToTypeDefinition",
-                        "label": "Go to &&Type Definition"
+                        "label": "Go to &&Type Definition",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToImplementation",
-                        "label": "Go to &&Implementations"
+                        "label": "Go to &&Implementations",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToReferences",
-                        "label": "Go to &&References"
+                        "label": "Go to &&References",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"

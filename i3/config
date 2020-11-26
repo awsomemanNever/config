@@ -141,6 +141,7 @@ exec discord
 
 exec --no-startup-id picom -b 
 
+exec --no-startup-id redshift
 
 # workspace configuration
 

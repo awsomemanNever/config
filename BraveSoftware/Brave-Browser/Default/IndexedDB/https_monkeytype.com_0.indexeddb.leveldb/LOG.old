@@ -1,0 +1,17 @@
+2020/11/18-08:47:32.322 9578 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/18-08:47:36.341 9818 Level-0 table #5: started
+2020/11/18-08:47:36.455 9818 Level-0 table #5: 1420 bytes OK
+2020/11/18-08:47:36.610 9818 Delete type=0 #3
+2020/11/18-08:47:36.610 9818 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/11/18-09:15:36.303 9a48 Level-0 table #7: started
+2020/11/18-09:15:36.681 9a48 Level-0 table #7: 6678 bytes OK
+2020/11/18-09:15:36.960 9a48 Delete type=0 #4
+2020/11/18-09:15:36.960 9a48 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/18-09:15:36.960 9a48 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x009\x007\x008\x008\x004\x007\x001\x001\x004\x000\x00:\x00w\x00e\x00b\x00:\x007\x00e\x003\x001\x00b\x001\x005\x009\x005\x009\x00d\x006\x008\x00a\x00c\x000\x00a\x005\x001\x004\x007\x001' @ 108 : 1
+2020/11/18-09:15:36.960 9a48 Compacting 1@1 + 1@2 files
+2020/11/18-09:15:37.188 9a48 Generated table #8@1: 35 keys, 3419 bytes
+2020/11/18-09:15:37.188 9a48 Compacted 1@1 + 1@2 files => 3419 bytes
+2020/11/18-09:15:37.504 9a48 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/18-09:15:37.504 9a48 Delete type=2 #7
+2020/11/18-09:15:37.504 9a48 Delete type=2 #5
+2020/11/18-09:15:37.505 9a48 Manual compaction at level-1 from '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x009\x007\x008\x008\x004\x007\x001\x001\x004\x000\x00:\x00w\x00e\x00b\x00:\x007\x00e\x003\x001\x00b\x001\x005\x009\x005\x009\x00d\x006\x008\x00a\x00c\x000\x00a\x005\x001\x004\x007\x001' @ 108 : 1 .. (end); will stop at (end)

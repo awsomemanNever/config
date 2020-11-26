@@ -1,3 +1,17 @@
-2020/11/12-20:18:09.916 8afb Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/12-20:18:09.916 8afb Recovering log #66
-2020/11/12-20:18:09.917 8afb Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000066.log 
+2020/11/25-22:31:19.050 2c83 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/25-22:31:19.111 2c83 Recovering log #199
+2020/11/25-22:31:19.111 2c83 Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000199.log 
+2020/11/25-22:49:07.139 2ea9 Level-0 table #205: started
+2020/11/25-22:49:07.275 2ea9 Level-0 table #205: 1082635 bytes OK
+2020/11/25-22:49:07.439 2ea9 Delete type=0 #199
+2020/11/25-22:49:07.439 2ea9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/25-22:49:07.439 2ea9 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x05\x02\x1f\x03\x00\xe0\x0b\x8e\x06`wB\x00\x01,\x00D\x00n\x002\x00M\x00M\x00p\x00l\x00T\x001\x00A\x00Z\x00O\x00X\x005\x00W\x00O\x00j\x000\x00V\x00r\x00z\x00Q\x00W\x00N\x001\x00L\x00i\x00u\x00p\x00b\x00R\x00f\x00Z\x00V\x00h\x00Y\x00t\x00O\x00L\x00r\x00n\x006\x00Q\x00=' @ 1164651 : 1
+2020/11/25-22:49:07.439 2ea9 Compacting 1@1 + 2@2 files
+2020/11/25-22:49:07.675 2ea9 Generated table #206@1: 36544 keys, 2397646 bytes
+2020/11/25-22:49:07.786 2ea9 Generated table #207@1: 1639 keys, 637217 bytes
+2020/11/25-22:49:07.786 2ea9 Compacted 1@1 + 2@2 files => 3034863 bytes
+2020/11/25-22:49:07.834 2ea9 compacted to: files[ 0 0 2 0 0 0 0 ]
+2020/11/25-22:49:07.834 2ea9 Delete type=2 #202
+2020/11/25-22:49:07.834 2ea9 Delete type=2 #205
+2020/11/25-22:49:07.834 2ea9 Delete type=2 #201
+2020/11/25-22:49:07.860 2ea9 Manual compaction at level-1 from '\x00\x05\x02\x1f\x03\x00\xe0\x0b\x8e\x06`wB\x00\x01,\x00D\x00n\x002\x00M\x00M\x00p\x00l\x00T\x001\x00A\x00Z\x00O\x00X\x005\x00W\x00O\x00j\x000\x00V\x00r\x00z\x00Q\x00W\x00N\x001\x00L\x00i\x00u\x00p\x00b\x00R\x00f\x00Z\x00V\x00h\x00Y\x00t\x00O\x00L\x00r\x00n\x006\x00Q\x00=' @ 1164651 : 1 .. (end); will stop at (end)

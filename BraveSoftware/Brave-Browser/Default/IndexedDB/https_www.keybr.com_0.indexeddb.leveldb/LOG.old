@@ -1,8 +1,8 @@
-2020/11/12-22:51:25.498 9f00 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.keybr.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/12-22:51:25.499 9f00 Recovering log #16
-2020/11/12-22:51:25.499 9f00 Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.keybr.com_0.indexeddb.leveldb/000016.log 
-2020/11/12-22:51:27.569 9f01 Level-0 table #20: started
-2020/11/12-22:51:27.569 9f01 Level-0 table #20: 0 bytes OK
-2020/11/12-22:51:27.665 9f01 Delete type=0 #16
-2020/11/12-22:51:27.666 9f01 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/11/12-22:51:27.666 9f01 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
+2020/11/26-08:41:39.807 aa2 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.keybr.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/26-08:41:39.826 aa2 Recovering log #124
+2020/11/26-08:41:39.826 aa2 Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.keybr.com_0.indexeddb.leveldb/000124.log 
+2020/11/26-08:41:42.313 669 Level-0 table #128: started
+2020/11/26-08:41:42.313 669 Level-0 table #128: 0 bytes OK
+2020/11/26-08:41:42.439 669 Delete type=0 #124
+2020/11/26-08:41:42.439 669 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/26-08:41:42.439 669 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

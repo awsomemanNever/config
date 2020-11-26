@@ -1,5 +1,15 @@
-2020/11/11-19:27:25.399 79d4 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/11-19:41:51.564 79d6 Level-0 table #5: started
-2020/11/11-19:41:51.869 79d6 Level-0 table #5: 453800 bytes OK
-2020/11/11-19:41:52.203 79d6 Delete type=0 #3
-2020/11/11-19:41:52.218 79d6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/24-19:46:12.561 5667 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/24-19:46:12.561 5667 Recovering log #19
+2020/11/24-19:46:12.561 5667 Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000019.log 
+2020/11/24-21:08:45.815 5e57 Level-0 table #24: started
+2020/11/24-21:08:45.895 5e57 Level-0 table #24: 52829 bytes OK
+2020/11/24-21:08:46.009 5e57 Delete type=0 #19
+2020/11/24-21:08:46.009 5e57 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/24-21:08:46.038 5e57 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x03\x01\x0a\x00p\x00o\x00s\x00t\x00s\x00.\x00b\x00y\x00I\x00d' @ 2035 : 0
+2020/11/24-21:08:46.038 5e57 Compacting 1@1 + 1@2 files
+2020/11/24-21:08:46.140 5e57 Generated table #25@1: 41 keys, 26405 bytes
+2020/11/24-21:08:46.140 5e57 Compacted 1@1 + 1@2 files => 26405 bytes
+2020/11/24-21:08:46.319 5e57 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/24-21:08:46.320 5e57 Delete type=2 #24
+2020/11/24-21:08:46.320 5e57 Delete type=2 #21
+2020/11/24-21:08:46.320 5e57 Manual compaction at level-1 from '\x00\x01\x01\x03\x01\x0a\x00p\x00o\x00s\x00t\x00s\x00.\x00b\x00y\x00I\x00d' @ 2035 : 0 .. (end); will stop at (end)

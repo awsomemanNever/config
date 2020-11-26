@@ -1,0 +1,15 @@
+2020/11/17-14:29:24.529 2c89 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.amazon.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/17-14:29:24.529 2c89 Recovering log #15
+2020/11/17-14:29:24.529 2c89 Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.amazon.com_0.indexeddb.leveldb/000015.log 
+2020/11/17-14:29:28.836 2cf6 Level-0 table #20: started
+2020/11/17-14:29:28.886 2cf6 Level-0 table #20: 536 bytes OK
+2020/11/17-14:29:28.926 2cf6 Delete type=0 #15
+2020/11/17-14:29:28.926 2cf6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/17-14:29:28.926 2cf6 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x1f\x03\x00\xd0\xcbPZ]wB\x00\x01\x14\x00W\x007\x00R\x00Z\x00G\x00X\x00R\x00C\x00J\x00M\x00A\x00E\x001\x00W\x00A\x002\x004\x00V\x005\x00V' @ 126 : 1
+2020/11/17-14:29:28.927 2cf6 Compacting 1@1 + 1@2 files
+2020/11/17-14:29:28.964 2cf6 Generated table #21@1: 37 keys, 1064 bytes
+2020/11/17-14:29:28.964 2cf6 Compacted 1@1 + 1@2 files => 1064 bytes
+2020/11/17-14:29:29.004 2cf6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/17-14:29:29.005 2cf6 Delete type=2 #20
+2020/11/17-14:29:29.005 2cf6 Delete type=2 #17
+2020/11/17-14:29:29.005 2cf6 Manual compaction at level-1 from '\x00\x01\x01\x1f\x03\x00\xd0\xcbPZ]wB\x00\x01\x14\x00W\x007\x00R\x00Z\x00G\x00X\x00R\x00C\x00J\x00M\x00A\x00E\x001\x00W\x00A\x002\x004\x00V\x005\x00V' @ 126 : 1 .. (end); will stop at (end)

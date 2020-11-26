@@ -1,0 +1,25 @@
+2020/11/18-16:19:08.998 180b Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/18-16:19:08.999 180b Recovering log #6
+2020/11/18-16:19:08.999 180b Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000006.log 
+2020/11/18-16:19:09.719 180b Level-0 table #11: started
+2020/11/18-16:19:09.842 180b Level-0 table #11: 583 bytes OK
+2020/11/18-16:19:10.065 180b Delete type=0 #6
+2020/11/18-16:19:10.066 180b Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/11/18-16:19:48.753 1860 Compacting 1@1 + 1@2 files
+2020/11/18-16:19:48.790 1860 Generated table #12@1: 37 keys, 3365 bytes
+2020/11/18-16:19:48.790 1860 Compacted 1@1 + 1@2 files => 3365 bytes
+2020/11/18-16:19:48.835 1860 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/18-16:19:48.836 1860 Delete type=2 #11
+2020/11/18-16:19:48.836 1860 Delete type=2 #8
+2020/11/18-16:21:45.576 1890 Level-0 table #14: started
+2020/11/18-16:21:45.636 1890 Level-0 table #14: 6196 bytes OK
+2020/11/18-16:21:45.679 1890 Delete type=0 #10
+2020/11/18-16:21:45.679 1890 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/18-16:21:45.679 1890 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x009\x007\x008\x008\x004\x007\x001\x001\x004\x000\x00:\x00w\x00e\x00b\x00:\x007\x00e\x003\x001\x00b\x001\x005\x009\x005\x009\x00d\x006\x008\x00a\x00c\x000\x00a\x005\x001\x004\x007\x001' @ 202 : 1
+2020/11/18-16:21:45.679 1890 Compacting 1@1 + 1@2 files
+2020/11/18-16:21:45.716 1890 Generated table #15@1: 35 keys, 3454 bytes
+2020/11/18-16:21:45.716 1890 Compacted 1@1 + 1@2 files => 3454 bytes
+2020/11/18-16:21:45.756 1890 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/18-16:21:45.756 1890 Delete type=2 #14
+2020/11/18-16:21:45.756 1890 Delete type=2 #12
+2020/11/18-16:21:45.757 1890 Manual compaction at level-1 from '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x009\x007\x008\x008\x004\x007\x001\x001\x004\x000\x00:\x00w\x00e\x00b\x00:\x007\x00e\x003\x001\x00b\x001\x005\x009\x005\x009\x00d\x006\x008\x00a\x00c\x000\x00a\x005\x001\x004\x007\x001' @ 202 : 1 .. (end); will stop at (end)

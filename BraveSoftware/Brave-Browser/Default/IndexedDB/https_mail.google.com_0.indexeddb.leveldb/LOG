@@ -1,15 +1,15 @@
-2020/11/17-10:37:03.735 14bc Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/17-10:37:03.735 14bc Recovering log #35
-2020/11/17-10:37:03.735 14bc Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000035.log 
-2020/11/17-10:50:08.923 16bc Level-0 table #40: started
-2020/11/17-10:50:09.029 16bc Level-0 table #40: 474761 bytes OK
-2020/11/17-10:50:09.113 16bc Delete type=0 #35
-2020/11/17-10:50:09.114 16bc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/11/17-10:50:09.115 16bc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 6843 : 1
-2020/11/17-10:50:09.115 16bc Compacting 1@1 + 1@2 files
-2020/11/17-10:50:09.207 16bc Generated table #41@1: 77 keys, 66977 bytes
-2020/11/17-10:50:09.207 16bc Compacted 1@1 + 1@2 files => 66977 bytes
-2020/11/17-10:50:09.246 16bc compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/11/17-10:50:09.246 16bc Delete type=2 #40
-2020/11/17-10:50:09.246 16bc Delete type=2 #37
-2020/11/17-10:50:09.247 16bc Manual compaction at level-1 from '\x00\x08\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 6843 : 1 .. (end); will stop at (end)
+2020/11/26-09:38:11.989 e28 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/26-09:38:11.990 e28 Recovering log #95
+2020/11/26-09:38:11.990 e28 Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000095.log 
+2020/11/26-09:39:53.518 e75 Level-0 table #100: started
+2020/11/26-09:39:53.623 e75 Level-0 table #100: 486587 bytes OK
+2020/11/26-09:39:53.708 e75 Delete type=0 #95
+2020/11/26-09:39:53.708 e75 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/26-09:39:53.709 e75 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 20183 : 1
+2020/11/26-09:39:53.709 e75 Compacting 1@1 + 1@2 files
+2020/11/26-09:39:53.757 e75 Generated table #101@1: 71 keys, 52093 bytes
+2020/11/26-09:39:53.757 e75 Compacted 1@1 + 1@2 files => 52093 bytes
+2020/11/26-09:39:53.807 e75 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/26-09:39:53.807 e75 Delete type=2 #97
+2020/11/26-09:39:53.807 e75 Delete type=2 #100
+2020/11/26-09:39:53.808 e75 Manual compaction at level-1 from '\x00\x08\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 20183 : 1 .. (end); will stop at (end)

@@ -1,0 +1,15 @@
+2020/11/23-20:32:05.381 3e6f Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/23-20:32:05.382 3e6f Recovering log #4
+2020/11/23-20:32:05.382 3e6f Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000004.log 
+2020/11/23-21:46:00.999 419e Level-0 table #8: started
+2020/11/23-21:46:01.065 419e Level-0 table #8: 267602 bytes OK
+2020/11/23-21:46:01.137 419e Delete type=0 #4
+2020/11/23-21:46:01.138 419e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/23-21:46:01.138 419e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x03\x01'\x005\x008\x00c\x007\x005\x00c\x002\x005\x004\x005\x00e\x007\x00a\x006\x009\x004\x00f\x00a\x00a\x00c\x007\x002\x00a\x001\x00e\x00e\x000\x007\x009\x003\x006\x00d\x00_\x003\x00_\x002\x00:\x000\x000' @ 774 : 0
+2020/11/23-21:46:01.138 419e Compacting 1@1 + 1@2 files
+2020/11/23-21:46:01.188 419e Generated table #9@1: 73 keys, 66172 bytes
+2020/11/23-21:46:01.188 419e Compacted 1@1 + 1@2 files => 66172 bytes
+2020/11/23-21:46:01.226 419e compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/23-21:46:01.226 419e Delete type=2 #8
+2020/11/23-21:46:01.226 419e Delete type=2 #5
+2020/11/23-21:46:01.227 419e Manual compaction at level-1 from '\x00\x01\x03\x03\x01'\x005\x008\x00c\x007\x005\x00c\x002\x005\x004\x005\x00e\x007\x00a\x006\x009\x004\x00f\x00a\x00a\x00c\x007\x002\x00a\x001\x00e\x00e\x000\x007\x009\x003\x006\x00d\x00_\x003\x00_\x002\x00:\x000\x000' @ 774 : 0 .. (end); will stop at (end)

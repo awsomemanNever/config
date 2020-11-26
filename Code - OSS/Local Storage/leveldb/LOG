@@ -1,3 +1,3 @@
-2020/11/12-21:05:30.285 9679 Reusing MANIFEST /home/thebluechalk/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
-2020/11/12-21:05:30.323 9679 Recovering log #3
-2020/11/12-21:05:30.323 9679 Reusing old log /home/thebluechalk/.config/Code - OSS/Local Storage/leveldb/000003.log 
+2020/11/24-14:16:46.993 39ae Reusing MANIFEST /home/thebluechalk/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2020/11/24-14:16:47.035 39ae Recovering log #3
+2020/11/24-14:16:47.036 39ae Reusing old log /home/thebluechalk/.config/Code - OSS/Local Storage/leveldb/000003.log 

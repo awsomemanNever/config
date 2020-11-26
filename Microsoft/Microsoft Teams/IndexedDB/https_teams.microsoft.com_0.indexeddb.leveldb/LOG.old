@@ -1,11 +1,3 @@
-2020/11/17-08:33:10.662 11727 Reusing MANIFEST /home/thebluechalk/.config/Microsoft/Microsoft Teams/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/17-08:33:10.662 11727 Recovering log #206
-2020/11/17-08:33:10.880 11727 Reusing old log /home/thebluechalk/.config/Microsoft/Microsoft Teams/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000206.log 
-2020/11/17-08:33:12.446 11839 Compacting 1@1 + 2@2 files
-2020/11/17-08:33:12.721 11839 Generated table #209@1: 14366 keys, 2200958 bytes
-2020/11/17-08:33:12.917 11839 Generated table #210@1: 4821 keys, 2131741 bytes
-2020/11/17-08:33:12.917 11839 Compacted 1@1 + 2@2 files => 4332699 bytes
-2020/11/17-08:33:12.995 11839 compacted to: files[ 0 0 2 0 0 0 0 ]
-2020/11/17-08:33:12.997 11839 Delete type=2 #204
-2020/11/17-08:33:12.998 11839 Delete type=2 #207
-2020/11/17-08:33:13.020 11839 Delete type=2 #205
+2020/11/26-11:03:09.690 5523 Reusing MANIFEST /home/thebluechalk/.config/Microsoft/Microsoft Teams/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/26-11:03:09.691 5523 Recovering log #364
+2020/11/26-11:03:09.881 5523 Reusing old log /home/thebluechalk/.config/Microsoft/Microsoft Teams/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000364.log 

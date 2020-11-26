@@ -1,15 +1,8 @@
-2020/11/11-14:18:19.541 5686 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/11-14:18:19.542 5686 Recovering log #4
-2020/11/11-14:18:19.542 5686 Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000004.log 
-2020/11/11-14:19:13.041 55b7 Level-0 table #8: started
-2020/11/11-14:19:13.097 55b7 Level-0 table #8: 190 bytes OK
-2020/11/11-14:19:13.135 55b7 Delete type=0 #4
-2020/11/11-14:19:13.135 55b7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/11/11-14:19:13.135 55b7 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 44 : 1
-2020/11/11-14:19:13.135 55b7 Compacting 1@1 + 1@2 files
-2020/11/11-14:19:13.197 55b7 Generated table #9@1: 18 keys, 506 bytes
-2020/11/11-14:19:13.197 55b7 Compacted 1@1 + 1@2 files => 506 bytes
-2020/11/11-14:19:13.234 55b7 compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/11/11-14:19:13.235 55b7 Delete type=2 #8
-2020/11/11-14:19:13.235 55b7 Delete type=2 #5
-2020/11/11-14:19:13.235 55b7 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 44 : 1 .. (end); will stop at (end)
+2020/11/24-12:59:33.785 2b90 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/24-12:59:33.785 2b90 Recovering log #18
+2020/11/24-12:59:33.785 2b90 Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000018.log 
+2020/11/24-13:13:29.336 2f64 Level-0 table #22: started
+2020/11/24-13:13:29.336 2f64 Level-0 table #22: 0 bytes OK
+2020/11/24-13:13:29.390 2f64 Delete type=0 #18
+2020/11/24-13:13:29.390 2f64 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/24-13:13:29.390 2f64 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

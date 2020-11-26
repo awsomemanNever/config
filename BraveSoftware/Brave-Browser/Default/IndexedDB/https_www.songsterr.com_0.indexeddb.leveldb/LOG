@@ -1,0 +1,5 @@
+2020/11/24-14:09:15.713 37a1 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.songsterr.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/24-14:18:51.923 3937 Level-0 table #5: started
+2020/11/24-14:18:52.079 3937 Level-0 table #5: 1222 bytes OK
+2020/11/24-14:18:52.204 3937 Delete type=0 #3
+2020/11/24-14:18:52.204 3937 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

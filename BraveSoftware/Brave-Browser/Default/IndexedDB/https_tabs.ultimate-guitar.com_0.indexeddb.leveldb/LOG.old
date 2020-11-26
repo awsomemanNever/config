@@ -1,0 +1,15 @@
+2020/11/26-12:57:14.564 2823 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_tabs.ultimate-guitar.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/26-12:57:14.564 2823 Recovering log #83
+2020/11/26-12:57:14.564 2823 Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_tabs.ultimate-guitar.com_0.indexeddb.leveldb/000083.log 
+2020/11/26-12:58:20.908 262b Level-0 table #88: started
+2020/11/26-12:58:20.978 262b Level-0 table #88: 8615 bytes OK
+2020/11/26-12:58:21.068 262b Delete type=0 #83
+2020/11/26-12:58:21.068 262b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/26-12:58:21.069 262b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00p{/7`wB\x00\x01U\x00u\x00g\x00-\x00u\x00s\x00e\x00r\x00-\x00g\x00e\x00n\x00e\x00r\x00a\x00t\x00e\x00d\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00t\x00a\x00b\x00s\x00.\x00u\x00l\x00t\x00i\x00m\x00a\x00t\x00e\x00-\x00g\x00u\x00i\x00t\x00a\x00r\x00.\x00c\x00o\x00m\x00/\x00s\x00t\x00a\x00t\x00i\x00c\x00/\x00u\x00s\x00e\x00r\x00s\x00/\x005\x00/\x008\x00/\x003\x00/\x003\x002\x001\x006\x003\x008\x005\x00.\x00g\x00i\x00f\x00?\x00d\x00=\x00d' @ 10658 : 1
+2020/11/26-12:58:21.069 262b Compacting 1@1 + 1@2 files
+2020/11/26-12:58:21.135 262b Generated table #89@1: 801 keys, 82643 bytes
+2020/11/26-12:58:21.135 262b Compacted 1@1 + 1@2 files => 82643 bytes
+2020/11/26-12:58:21.182 262b compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/26-12:58:21.182 262b Delete type=2 #85
+2020/11/26-12:58:21.182 262b Delete type=2 #88
+2020/11/26-12:58:21.183 262b Manual compaction at level-1 from '\x00\x01\x01 \x03\x00p{/7`wB\x00\x01U\x00u\x00g\x00-\x00u\x00s\x00e\x00r\x00-\x00g\x00e\x00n\x00e\x00r\x00a\x00t\x00e\x00d\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00t\x00a\x00b\x00s\x00.\x00u\x00l\x00t\x00i\x00m\x00a\x00t\x00e\x00-\x00g\x00u\x00i\x00t\x00a\x00r\x00.\x00c\x00o\x00m\x00/\x00s\x00t\x00a\x00t\x00i\x00c\x00/\x00u\x00s\x00e\x00r\x00s\x00/\x005\x00/\x008\x00/\x003\x00/\x003\x002\x001\x006\x003\x008\x005\x00.\x00g\x00i\x00f\x00?\x00d\x00=\x00d' @ 10658 : 1 .. (end); will stop at (end)

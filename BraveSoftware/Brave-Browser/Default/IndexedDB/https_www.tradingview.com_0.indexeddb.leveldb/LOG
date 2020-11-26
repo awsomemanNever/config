@@ -1,0 +1,5 @@
+2020/11/25-21:14:47.149 267c Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tradingview.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/25-21:14:50.257 267c Level-0 table #5: started
+2020/11/25-21:14:50.313 267c Level-0 table #5: 378 bytes OK
+2020/11/25-21:14:50.391 267c Delete type=0 #3
+2020/11/25-21:14:50.392 267c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

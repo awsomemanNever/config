@@ -1,0 +1,15 @@
+2020/11/23-08:36:49.188 152b Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_studio.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/23-08:36:49.188 152b Recovering log #20
+2020/11/23-08:36:49.188 152b Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_studio.youtube.com_0.indexeddb.leveldb/000020.log 
+2020/11/23-08:36:51.651 124f Level-0 table #24: started
+2020/11/23-08:36:52.212 124f Level-0 table #24: 190 bytes OK
+2020/11/23-08:36:52.569 124f Delete type=0 #20
+2020/11/23-08:36:52.572 124f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/23-08:36:52.572 124f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 10 : 1
+2020/11/23-08:36:52.572 124f Compacting 1@1 + 1@2 files
+2020/11/23-08:36:52.770 124f Generated table #25@1: 8 keys, 396 bytes
+2020/11/23-08:36:52.770 124f Compacted 1@1 + 1@2 files => 396 bytes
+2020/11/23-08:36:52.940 124f compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/23-08:36:52.940 124f Delete type=2 #24
+2020/11/23-08:36:52.941 124f Delete type=2 #12
+2020/11/23-08:36:52.941 124f Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 10 : 1 .. (end); will stop at (end)

@@ -1,0 +1,48 @@
+2020/11/18-22:25:17.817 2527 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_to-do.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/18-22:25:17.817 2527 Recovering log #11
+2020/11/18-22:25:17.817 2527 Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_to-do.live.com_0.indexeddb.leveldb/000011.log 
+2020/11/18-22:25:17.983 2528 Level-0 table #17: started
+2020/11/18-22:25:18.064 2528 Level-0 table #17: 476 bytes OK
+2020/11/18-22:25:18.206 2528 Delete type=0 #11
+2020/11/18-22:25:18.207 2528 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/11/18-22:25:18.207 248f Level-0 table #19: started
+2020/11/18-22:25:18.286 248f Level-0 table #19: 502 bytes OK
+2020/11/18-22:25:18.429 248f Delete type=0 #16
+2020/11/18-22:25:18.430 248f Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 1407 : 1
+2020/11/18-22:25:18.430 248f Compacting 1@0 + 1@1 files
+2020/11/18-22:25:18.485 248f Generated table #20@0: 12 keys, 483 bytes
+2020/11/18-22:25:18.485 248f Compacted 1@0 + 1@1 files => 483 bytes
+2020/11/18-22:25:18.528 248f compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/11/18-22:25:18.528 248f Delete type=2 #19
+2020/11/18-22:25:18.529 248f Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 1407 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/11/18-22:25:18.529 248f Level-0 table #22: started
+2020/11/18-22:25:18.575 248f Level-0 table #22: 502 bytes OK
+2020/11/18-22:25:18.617 248f Delete type=0 #18
+2020/11/18-22:25:18.617 248f Delete type=2 #17
+2020/11/18-22:25:18.617 248f Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 1425 : 1
+2020/11/18-22:25:18.617 248f Compacting 1@0 + 1@1 files
+2020/11/18-22:25:18.664 248f Generated table #23@0: 16 keys, 517 bytes
+2020/11/18-22:25:18.664 248f Compacted 1@0 + 1@1 files => 517 bytes
+2020/11/18-22:25:18.705 248f compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/11/18-22:25:18.706 248f Delete type=2 #22
+2020/11/18-22:25:18.706 248f Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 1425 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/11/18-22:27:41.960 2528 Level-0 table #25: started
+2020/11/18-22:27:42.005 2528 Level-0 table #25: 22525 bytes OK
+2020/11/18-22:27:42.051 2528 Delete type=2 #20
+2020/11/18-22:27:42.052 2528 Delete type=0 #21
+2020/11/18-22:27:42.052 2528 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x04\x06\x02\x01\x0d\x00l\x00-\x001\x00i\x00r\x00v\x00i\x00n\x00m\x00m\x00y\x00l\x006' @ 1517 : 1
+2020/11/18-22:27:42.052 2528 Compacting 1@0 + 1@1 files
+2020/11/18-22:27:42.106 2528 Generated table #26@0: 108 keys, 5855 bytes
+2020/11/18-22:27:42.106 2528 Compacted 1@0 + 1@1 files => 5855 bytes
+2020/11/18-22:27:42.151 2528 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/11/18-22:27:42.151 2528 Delete type=2 #23
+2020/11/18-22:27:42.152 2528 Delete type=2 #25
+2020/11/18-22:27:42.152 2528 Manual compaction at level-0 from '\x00\x04\x06\x02\x01\x0d\x00l\x00-\x001\x00i\x00r\x00v\x00i\x00n\x00m\x00m\x00y\x00l\x006' @ 1517 : 1 .. (end); will stop at (end)
+2020/11/18-22:27:42.152 2528 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x06\x02\x01\x0d\x00l\x00-\x001\x00i\x00r\x00v\x00i\x00n\x00m\x00m\x00y\x00l\x006' @ 1517 : 1
+2020/11/18-22:27:42.152 2528 Compacting 1@1 + 1@2 files
+2020/11/18-22:27:42.196 2528 Generated table #27@1: 208 keys, 21073 bytes
+2020/11/18-22:27:42.196 2528 Compacted 1@1 + 1@2 files => 21073 bytes
+2020/11/18-22:27:42.240 2528 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/18-22:27:42.240 2528 Delete type=2 #26
+2020/11/18-22:27:42.240 2528 Delete type=2 #14
+2020/11/18-22:27:42.241 2528 Manual compaction at level-1 from '\x00\x04\x06\x02\x01\x0d\x00l\x00-\x001\x00i\x00r\x00v\x00i\x00n\x00m\x00m\x00y\x00l\x006' @ 1517 : 1 .. (end); will stop at (end)

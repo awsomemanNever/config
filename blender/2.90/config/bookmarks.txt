@@ -1,10 +1,12 @@
 [Bookmarks]
 [Recent]
+/home/thebluechalk/blender/car_tutorial/Project_Files/References/photo_ref/
+/home/thebluechalk/blender/car_tutorial/Project_Files/References/
 /home/thebluechalk/blender/projects/
-/home/thebluechalk/Downloads/
 /home/thebluechalk/blender/renders/f40/
-/home/thebluechalk/blender/renders/
 /tmp/
-/home/thebluechalk/blender/assets/
-/home/thebluechalk/blender/assets/Delightfull_Diana_table_lamp_fbx_obj/
-/home/thebluechalk/blender/
+/home/thebluechalk/blender/assets/eazwzpr06134-TF/
+/home/thebluechalk/blender/references/
+/home/thebluechalk/blender/hdris/
+/home/thebluechalk/Downloads/
+/home/thebluechalk/blender/renders/

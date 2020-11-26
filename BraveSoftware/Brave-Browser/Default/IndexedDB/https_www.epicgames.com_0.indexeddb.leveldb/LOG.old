@@ -1,0 +1,15 @@
+2020/11/20-08:55:25.625 e27 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.epicgames.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/20-08:55:25.625 e27 Recovering log #43
+2020/11/20-08:55:25.625 e27 Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.epicgames.com_0.indexeddb.leveldb/000043.log 
+2020/11/20-08:58:41.861 f5a Level-0 table #47: started
+2020/11/20-08:58:42.025 f5a Level-0 table #47: 3524 bytes OK
+2020/11/20-08:58:42.520 f5a Delete type=0 #43
+2020/11/20-08:58:42.533 f5a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/20-08:58:42.533 f5a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x03\x01\x1d\x00p\x00r\x00o\x00d\x00u\x00c\x00t\x00-\x00p\x00a\x00g\x00e\x00s\x00-\x00m\x00u\x00d\x00r\x00u\x00n\x00n\x00e\x00r\x00-\x00e\x00n\x00-\x00U\x00S' @ 278 : 1
+2020/11/20-08:58:42.533 f5a Compacting 1@1 + 1@2 files
+2020/11/20-08:58:42.749 f5a Generated table #48@1: 61 keys, 2760 bytes
+2020/11/20-08:58:42.749 f5a Compacted 1@1 + 1@2 files => 2760 bytes
+2020/11/20-08:58:42.796 f5a compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/20-08:58:42.796 f5a Delete type=2 #23
+2020/11/20-08:58:42.796 f5a Delete type=2 #47
+2020/11/20-08:58:42.797 f5a Manual compaction at level-1 from '\x00\x03\x01\x03\x01\x1d\x00p\x00r\x00o\x00d\x00u\x00c\x00t\x00-\x00p\x00a\x00g\x00e\x00s\x00-\x00m\x00u\x00d\x00r\x00u\x00n\x00n\x00e\x00r\x00-\x00e\x00n\x00-\x00U\x00S' @ 278 : 1 .. (end); will stop at (end)

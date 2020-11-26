@@ -1,5 +1,15 @@
-2020/11/16-20:23:05.762 1239 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_studio.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/16-20:23:08.162 128c Level-0 table #5: started
-2020/11/16-20:23:08.242 128c Level-0 table #5: 388 bytes OK
-2020/11/16-20:23:08.320 128c Delete type=0 #3
-2020/11/16-20:23:08.321 128c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/25-11:34:02.918 1ae3 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_studio.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/25-11:34:02.919 1ae3 Recovering log #23
+2020/11/25-11:34:02.919 1ae3 Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_studio.youtube.com_0.indexeddb.leveldb/000023.log 
+2020/11/25-11:34:05.243 1ae4 Level-0 table #28: started
+2020/11/25-11:34:05.299 1ae4 Level-0 table #28: 190 bytes OK
+2020/11/25-11:34:05.349 1ae4 Delete type=0 #23
+2020/11/25-11:34:05.350 1ae4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/25-11:34:05.352 1ae4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 11 : 1
+2020/11/25-11:34:05.352 1ae4 Compacting 1@1 + 1@2 files
+2020/11/25-11:34:05.388 1ae4 Generated table #29@1: 8 keys, 396 bytes
+2020/11/25-11:34:05.388 1ae4 Compacted 1@1 + 1@2 files => 396 bytes
+2020/11/25-11:34:05.429 1ae4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/25-11:34:05.430 1ae4 Delete type=2 #28
+2020/11/25-11:34:05.430 1ae4 Delete type=2 #25
+2020/11/25-11:34:05.430 1ae4 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 11 : 1 .. (end); will stop at (end)

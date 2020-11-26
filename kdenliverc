@@ -1,0 +1,115 @@
+[KFileDialog Settings]
+Recent Files[$e]=raw,file:$HOME/Videos/1080p,file:$HOME/Videos/TBC_INTRO.mov,file:$HOME/Videos/1SmNqRfv2XaqEqErJFKBuqa13WoMfruB0IOU8GRf.mp3,file:$HOME/Videos/Smash
+Recent URLs[$e]=file:$HOME/Videos/,file:$HOME/
+detailViewIconSize=0
+
+[MainWindow]
+LVDS1 Height 800=710
+LVDS1 Width 1280=615
+LVDS1 XPosition=645
+LVDS1 YPosition=45
+State=AAAA/wAAAAD9AAAAAgAAAAEAAAFaAAAAufwCAAAAAfwAAAHxAAAAuQAAALkBAAAZ+gAAAAECAAAAAvsAAAAKAG0AaQB4AGUAcgEAAAHwAAACCwAAAJ4A///++wAAABgAZQBmAGYAZQBjAHQAXwBzAHQAYQBjAGsBAAAAAP////8AAABZAP///gAAAAIAAAJnAAABo/wBAAAACfsAAAAUAHMAYwByAGUAZQBuAGcAcgBhAGIAAAAAAP////8AAABHAP////sAAAAaAGEAdQBkAGkAbwBzAHAAZQBjAHQAcgB1AG0AAAAAAP////8AAABpAP////wAAAAAAAAAewAAAHsA////+gAAAAABAAAABfsAAAAWAHAAcgBvAGoAZQBjAHQAXwBiAGkAbgEAAAAA/////wAAAEYA////+wAAAB4AdAByAGEAbgBzAGkAdABpAG8AbgBfAGwAaQBzAHQBAAAAAP////8AAAAAAP////sAAAAWAGUAZgBmAGUAYwB0AF8AbABpAHMAdAEAAAAA/////wAAAAAA////+wAAAB4AYwBsAGkAcABfAHAAcgBvAHAAZQByAHQAaQBlAHMBAAAAAP////8AAABEAP////sAAAAYAHUAbgBkAG8AXwBoAGkAcwB0AG8AcgB5AQAAAAD/////AAAARgD////8AAAAgQAAAPAAAAFAAP////oAAAAAAgAAAAL7AAAAGABjAGwAaQBwAF8AbQBvAG4AaQB0AG8AcgEAAABEAAABzQAAAMcA///++wAAAA4AbABpAGIAcgBhAHIAeQEAAAAA/////wAAAIQA///+/AAAAXcAAADwAAABQAD////6AAAAAAIAAAAC+wAAAB4AcAByAG8AagBlAGMAdABfAG0AbwBuAGkAdABvAHIBAAAAvwAAASwAAADHAP///vsAAAAYAG4AbwB0AGUAcwBfAHcAaQBkAGcAZQB0AQAAAAD/////AAAAdgD///77AAAAFgB2AGUAYwB0AG8AcgBzAGMAbwBwAGUAAAAAAP////8AAAEpAP////sAAAAQAHcAYQB2AGUAZgBvAHIAbQAAAAAA/////wAAAJ8A////+wAAABQAcgBnAGIAXwBwAGEAcgBhAGQAZQAAAAAA/////wAAAJwA////+wAAABIAaABpAHMAdABvAGcAcgBhAG0AAAAAAP////8AAAFCAP///wAAAQcAAAC5AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABlAHgAdAByAGEAVABvAG8AbABCAGEAcgEAAAH+/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Dirs]
+KdenliveClipFolder[$e]=$HOME/Videos/,$HOME/Videos,$HOME/Documents
+KdenliveProjectsFolder[$e]=$HOME/Videos,$HOME/Videos/,$HOME/Documents
+
+[Recent Files]
+File1[$e]=$HOME/Videos/corsairharpoon.kdenlive
+Name1[$e]=corsairharpoon.kdenlive
+
+[Scope_Histogram]
+autoRefresh=true
+bEnabled=true
+gEnabled=true
+logScale=false
+rEnabled=true
+realtime=false
+rec601=false
+sEnabled=false
+yEnabled=true
+
+[Scope_RGB Parade]
+autoRefresh=true
+axis=false
+gradref=false
+paintmode=0
+realtime=false
+
+[Scope_Vectorscope]
+75PBox=false
+autoRefresh=true
+axis=false
+backgroundmode=0
+colorspace_ypbpr=false
+gain=1
+iqlines=false
+paintmode=0
+realtime=false
+
+[Scope_Waveform]
+autoRefresh=true
+paintmode=0
+realtime=false
+rec601=false
+
+[UiSettings]
+ColorScheme=Breeze Dark
+
+[bin]
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAI/gAAAAcAAAAHAAAAMAAAAAYAAAAnAAAABQAAAFUAAAAEAAAAMQAAAAMAAAA5AAAAAgAAAGcAAAABAAAAOQAAAU0AAAAIAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAIAAABTQAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAD6AAAAABA
+
+[capture]
+decklink_capturedevice=4294967295
+decklink_extension=mov
+decklink_parameters=vcodec=dnxhd vb=145000k acodec=pcm_s16le threads=%threads
+defaultaudiocapture=0
+grab_extension=mov
+grab_parameters=-crf 25 -vcodec libx264 -preset veryfast -threads 0
+v4l_extension=mpg
+v4l_parameters=qscale=4 ab=192k vcodec=mpeg2video acodec=mp2 threads=%threads
+
+[env]
+defaultprojectfolder[$e]=$HOME/Videos
+ffmpegpath[$e]=/usr/bin/ffmpeg
+ffplaypath[$e]=/usr/bin/ffplay
+ffprobepath[$e]=/usr/bin/ffprobe
+mltpath[$e]=/usr/share/mlt/profiles
+rendererpath[$e]=/usr/bin/melt
+
+[project]
+externalProxyProfile=../Sub;;S03.MP4;../Clip;;.MXF
+vaapiEnabled=true
+
+[sdl]
+audio_driver=2
+audiodrivername=pulseaudio
+blackmagic_output_device=-1
+
+[settings]
+dialogSize=1024,700
+
+[shuttle]
+shuttlebuttons=button0=monitor_pause
+
+[timeline]
+headerwidth=170
+multistream_checktrack=false
+trackheight=69
+
+[unmanaged]
+automatictransitions=false
+default_profile=atsc_1080p_25
+defaultrescaleheight=540
+defaultrescalewidth=960
+favorite_effects=volume,lift_gamma_gain
+force_breeze=true
+monitor_audio=false
+producerslist=decklink,vorbis,abnormal,color,colour,consumer,hold,loader,melt,melt_file,noise,timewarp,tone,framebuffer,xml,xml-string,xml-nogl,qimage,qtext,kdenlivetitle,pgm,frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,avformat,avformat-novalidate,pango,pixbuf,slowmotion,blipflash,count
+properties_panel_page=4
+use_dark_breeze=true
+widgetstyle=Fusion
+
+[version]
+version=20.08.3

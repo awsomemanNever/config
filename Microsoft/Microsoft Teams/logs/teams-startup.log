@@ -1,4 +1,7 @@
-(node:1427) UnhandledPromiseRejectionWarning: ReferenceError: window is not defined
+
+(teams:1549): Gtk-WARNING **: 15:39:16.560: Theme parsing error: gtk.css:2:33: Failed to import: Error opening file /home/thebluechalk/.config/gtk-3.0/window_decorations.css: No such file or directory
+Gtk-Message: 15:39:16.610: Failed to load module "colorreload-gtk-module"
+(node:1549) UnhandledPromiseRejectionWarning: ReferenceError: window is not defined
     at /usr/share/teams/resources/app.asar/node_modules/ipc-monitor/renderer/dom-observables.js:31:5
     at new Promise (<anonymous>)
     at Object.<anonymous> (/usr/share/teams/resources/app.asar/node_modules/ipc-monitor/renderer/dom-observables.js:30:30)
@@ -9,9 +12,6 @@
     at tryModuleLoad (internal/modules/cjs/loader.js:541:12)
     at Function.Module._load (internal/modules/cjs/loader.js:533:3)
     at Module.require (internal/modules/cjs/loader.js:640:17)
-(node:1427) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
-(node:1427) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-(node:1427) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 appInitialized listeners added. Use emitter.setMaxListeners() to increase limit
-(node:1427) UnhandledPromiseRejectionWarning: undefined
-(node:1427) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
-(node:1427) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 ecsSettingsUpdated listeners added. Use emitter.setMaxListeners() to increase limit
+(node:1549) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:1549) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Invalid MIT-MAGIC-COOKIE-1 keyServer response: 

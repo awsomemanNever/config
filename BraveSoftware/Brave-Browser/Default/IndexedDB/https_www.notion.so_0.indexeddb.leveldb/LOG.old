@@ -1,15 +1,15 @@
-2020/11/17-09:12:47.969 bed Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/17-09:12:47.970 bed Recovering log #37
-2020/11/17-09:12:47.970 bed Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000037.log 
-2020/11/17-09:15:45.788 cfe Level-0 table #42: started
-2020/11/17-09:15:45.868 cfe Level-0 table #42: 71558 bytes OK
-2020/11/17-09:15:45.940 cfe Delete type=0 #37
-2020/11/17-09:15:45.941 cfe Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/11/17-09:15:45.941 cfe Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x02"\x01$\x00d\x00c\x000\x001\x00d\x00a\x00c\x00b\x00-\x00a\x00c\x004\x00f\x00-\x004\x00b\x00d\x00b\x00-\x00a\x000\x00c\x004\x00-\x003\x00d\x00c\x00e\x007\x006\x008\x004\x00f\x00b\x00f\x006\x00\x03\x00\x00\x00\x00\x00\xf8\x96@' @ 93328 : 1
-2020/11/17-09:15:45.941 cfe Compacting 1@1 + 1@2 files
-2020/11/17-09:15:46.036 cfe Generated table #43@1: 4469 keys, 162342 bytes
-2020/11/17-09:15:46.036 cfe Compacted 1@1 + 1@2 files => 162342 bytes
-2020/11/17-09:15:46.073 cfe compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/11/17-09:15:46.073 cfe Delete type=2 #39
-2020/11/17-09:15:46.073 cfe Delete type=2 #42
-2020/11/17-09:15:46.104 cfe Manual compaction at level-1 from '\x00\x01\x02"\x01$\x00d\x00c\x000\x001\x00d\x00a\x00c\x00b\x00-\x00a\x00c\x004\x00f\x00-\x004\x00b\x00d\x00b\x00-\x00a\x000\x00c\x004\x00-\x003\x00d\x00c\x00e\x007\x006\x008\x004\x00f\x00b\x00f\x006\x00\x03\x00\x00\x00\x00\x00\xf8\x96@' @ 93328 : 1 .. (end); will stop at (end)
+2020/11/22-07:49:31.232 4c80 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/22-07:49:31.421 4c80 Recovering log #93
+2020/11/22-07:49:31.422 4c80 Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000093.log 
+2020/11/22-07:53:02.222 4eff Level-0 table #98: started
+2020/11/22-07:53:02.297 4eff Level-0 table #98: 190 bytes OK
+2020/11/22-07:53:02.431 4eff Delete type=0 #93
+2020/11/22-07:53:02.431 4eff Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/22-07:53:02.465 4efe Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 161477 : 1
+2020/11/22-07:53:02.465 4efe Compacting 1@1 + 1@2 files
+2020/11/22-07:53:02.598 4efe Generated table #99@1: 7955 keys, 288841 bytes
+2020/11/22-07:53:02.598 4efe Compacted 1@1 + 1@2 files => 288841 bytes
+2020/11/22-07:53:02.635 4efe compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/22-07:53:02.636 4efe Delete type=2 #98
+2020/11/22-07:53:02.636 4efe Delete type=2 #95
+2020/11/22-07:53:02.647 4efe Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 161477 : 1 .. (end); will stop at (end)

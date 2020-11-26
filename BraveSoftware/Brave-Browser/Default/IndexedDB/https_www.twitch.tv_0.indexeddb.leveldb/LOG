@@ -1,0 +1,5 @@
+2020/11/22-08:28:49.302 5100 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/22-08:29:21.543 5032 Level-0 table #5: started
+2020/11/22-08:29:21.600 5032 Level-0 table #5: 818 bytes OK
+2020/11/22-08:29:21.759 5032 Delete type=0 #3
+2020/11/22-08:29:21.759 5032 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,15 +1,8 @@
-2020/11/17-09:46:48.063 ff6 Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/17-09:46:48.063 ff6 Recovering log #67
-2020/11/17-09:46:48.063 ff6 Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000067.log 
-2020/11/17-09:53:12.413 10f5 Level-0 table #71: started
-2020/11/17-09:53:12.590 10f5 Level-0 table #71: 253217 bytes OK
-2020/11/17-09:53:12.707 10f5 Delete type=0 #67
-2020/11/17-09:53:12.734 10f5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/11/17-09:53:12.734 10f5 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x03\x01'\x009\x007\x00d\x000\x00c\x006\x00b\x006\x00c\x00e\x002\x006\x000\x006\x009\x002\x002\x00d\x00c\x001\x005\x009\x00c\x005\x001\x00d\x00c\x000\x002\x00b\x003\x003\x00_\x003\x00_\x001\x00:\x000\x000' @ 2720 : 0
-2020/11/17-09:53:12.734 10f5 Compacting 1@1 + 1@2 files
-2020/11/17-09:53:12.813 10f5 Generated table #72@1: 272 keys, 66911 bytes
-2020/11/17-09:53:12.813 10f5 Compacted 1@1 + 1@2 files => 66911 bytes
-2020/11/17-09:53:12.853 10f5 compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/11/17-09:53:12.853 10f5 Delete type=2 #65
-2020/11/17-09:53:12.853 10f5 Delete type=2 #71
-2020/11/17-09:53:12.866 104b Manual compaction at level-1 from '\x00\x01\x03\x03\x01'\x009\x007\x00d\x000\x00c\x006\x00b\x006\x00c\x00e\x002\x006\x000\x006\x009\x002\x002\x00d\x00c\x001\x005\x009\x00c\x005\x001\x00d\x00c\x000\x002\x00b\x003\x003\x00_\x003\x00_\x001\x00:\x000\x000' @ 2720 : 0 .. (end); will stop at (end)
+2020/11/23-20:32:20.113 3e6f Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/23-20:32:20.114 3e6f Recovering log #200
+2020/11/23-20:32:20.114 3e6f Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000200.log 
+2020/11/23-21:46:00.769 419e Level-0 table #204: started
+2020/11/23-21:46:00.792 419e Level-0 table #204: 0 bytes OK
+2020/11/23-21:46:00.864 419e Delete type=0 #200
+2020/11/23-21:46:00.864 419e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/23-21:46:00.864 419e Manual compaction at level-1 from (begin) .. (end); will stop at (end)

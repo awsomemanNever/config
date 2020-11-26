@@ -1,0 +1,15 @@
+2020/11/18-09:57:53.164 9e7d Reusing MANIFEST /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/18-09:57:53.164 9e7d Recovering log #4
+2020/11/18-09:57:53.165 9e7d Reusing old log /home/thebluechalk/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/000004.log 
+2020/11/18-09:58:11.291 a143 Level-0 table #8: started
+2020/11/18-09:58:11.508 a143 Level-0 table #8: 1419980 bytes OK
+2020/11/18-09:58:11.699 a143 Delete type=0 #4
+2020/11/18-09:58:11.700 a143 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/18-09:58:11.700 a143 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x02\x1f\x04\x05\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x94s\xc1[wB\x03\x00\xd0L\x05\x10\wB\x00\x01,\x00A\x00F\x001\x00Q\x00i\x00p\x00P\x00V\x00D\x00o\x00v\x00N\x007\x00z\x00j\x00s\x00O\x009\x00T\x00d\x00V\x00S\x00c\x000\x00z\x00t\x00Z\x00c\x00R\x00q\x00m\x00u\x00S\x00_\x00R\x00Z\x00p\x00w\x00v\x00X\x00J\x00g\x00X\x00f' @ 996 : 1
+2020/11/18-09:58:11.700 a143 Compacting 1@1 + 1@2 files
+2020/11/18-09:58:11.965 a143 Generated table #9@1: 1560 keys, 1320563 bytes
+2020/11/18-09:58:11.966 a143 Compacted 1@1 + 1@2 files => 1320563 bytes
+2020/11/18-09:58:12.390 a143 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/18-09:58:12.391 a143 Delete type=2 #8
+2020/11/18-09:58:12.391 a143 Delete type=2 #5
+2020/11/18-09:58:12.420 a143 Manual compaction at level-1 from '\x00\x03\x02\x1f\x04\x05\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x94s\xc1[wB\x03\x00\xd0L\x05\x10\wB\x00\x01,\x00A\x00F\x001\x00Q\x00i\x00p\x00P\x00V\x00D\x00o\x00v\x00N\x007\x00z\x00j\x00s\x00O\x009\x00T\x00d\x00V\x00S\x00c\x000\x00z\x00t\x00Z\x00c\x00R\x00q\x00m\x00u\x00S\x00_\x00R\x00Z\x00p\x00w\x00v\x00X\x00J\x00g\x00X\x00f' @ 996 : 1 .. (end); will stop at (end)
